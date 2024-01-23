@@ -37,6 +37,7 @@ Route::get('admin/dashboard',[AdminController::class,'dashboard'])->middleware('
 
 
 // Vendor Route
+
 Route::get('vendor/dashboard',[VendorController::class,'dashboard'])->middleware('auth')->name('vendor.dashboard');
 
 
